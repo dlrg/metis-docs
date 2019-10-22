@@ -1,3 +1,3 @@
 # metis-docs
-![Build Status]
-(https://travis-ci.org/dlrg/metis-docs.svg?branch=master)
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
