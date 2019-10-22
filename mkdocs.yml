@@ -24,7 +24,7 @@ nav:
 - 'Installation': 'installation.md'
 theme:
   name: 'material'
-  logo: 'images/logo.svg'
+  logo: 'https://static.codeanker.de/images/stockit-logo-white.png'
   palette:
     primary: 'blue grey'
     accent: 'indigo'
