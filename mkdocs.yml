@@ -1,0 +1,38 @@
+site_name: "metis: documentation"
+site_url: https://dlrg.github.io/metis-docs/
+copyright: 'Copyright &copy; 2019 Daniel Swiatek'
+repo_name: dlrg/metis
+repo_url: https://github.com/dlrg/metis
+edit_uri: ../metis-docs/edit/master/docs/
+remote_branch: gh-pages
+markdown_extensions:
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.extra
+  - footnotes
+nav:
+- 'Information': 'index.md'
+- 'Systemanforderungen': 'systemanforderungen.md'
+- 'Installation': 'installation.md'
+theme:
+  name: 'material'
+  logo: 'images/logo.svg'
+  palette:
+    primary: 'blue grey'
+    accent: 'indigo'
+  social:
+    - type: globe
+      link: http://metis.dlrg.sh
+    - type: github-alt
+      link: https://github.com/dlrg
+extra_css: [extra.css]
+#extra_javascript: [clients.js]
+#google_analytics: ['UA-92608421-4', 'metis.github.io']
